@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Spinner</title>
+  <style>
+    /* Spinner Container */
+    .spinner-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: white;
+    }
+
+    /* Spinner */
+    .spinner {
+      width: 200px;
+      height: 200px;
+      border: 6px solid #ddd; 
+      border-top: 6px solid black;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    /* Spinner Animation */
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+
+
+    .box1{
+        height: 200px;
+        width: 200px;
+        margin-top: 6px magenta;
+        
+        background-color: white;
+        display: flex;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+       
+    }
+    .spinner1{
+        width: 200px;
+      height: 200px;
+      border: 6px solid #ddd; 
+      border-top: 6px solid transparent;
+      
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+       
+    }
+
+  </style>
+</head>
+<body>
+  <div class="spinner-container">
+    <div class="spinner"></div>
+  </div>
+
+
+ <div class="box">
+    <div class="bo1">
+        <div class="spinner1"></div>
+      </div>
+    
+    
+      <div class="bo1">
+        <div class="spinner1"></div>
+      </div>
+    
+      <div class="box1">
+        <div class="spinner1"></div>
+      </div>
+
+
+
+ </div>
+
+  
+
+
+
+</body>
+</html>

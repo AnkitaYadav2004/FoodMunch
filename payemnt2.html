@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        .paymentSection{
+            width: 70%;
+        }
+
+        .paymentOption{
+            width:90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            margin-left: 15%;
+            
+        }
+        .giftsection img{
+            height: 15rem;
+            width: 40%;
+            margin-left: 15%;
+        }
+        .giftsection{
+          margin-top: 60px;
+        }
+        .gift{
+          margin-top: 20px;
+
+        }
+        .boucher img{
+            width: 530px;
+            height: 480px;
+            padding-right: 70px;
+           
+         
+            
+          
+            
+        }
+        .boucher{
+            height: 510px;
+            width: 500px;
+             /* background-color: aqua;  */
+            display: flex;
+            justify-content: center;
+            /* padding-right: 70px; */
+            
+           
+        }
+        #text2{
+          margin-top: 5px;
+        }
+        #img2{
+          height: 620px;
+          width: 620px;
+
+        }
+        .img10{
+         width: 100px;
+         height: 100px;
+        }
+        
+    </style>
+  </head>
+  <body>
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container">
+           
+
+        <div class="col-12 col-md-6 col-lg-4 bg-success"></div>
+        <div class="col-12 col-md-6 col-lg-4 bg-worning"></div>
+        <div class="col-12 col-md-6 col-lg-4 bg-info"></div>
+        <div class="col-12 col-md-6 col-lg-4 bg-primary"></div>
+       
+       <!-- payment section -->
+       <div class="container">
+        <!-- Payment Section -->
+    <div class="row PaymentSection d-flex justify-content-center mt-5">
+      <div class="col-12 col-md-6 order-md-1 d-flex justify-content-center" id="img1">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/healthy-food-plate-img.png" alt="">
+      </div>
+      <div class="col-12 col-md-6 order-md-2 d-flex flex-column justify-content-center align-items-start" id="text1">
+          <h4>
+              We become what we consume, Eat Satvik
+          </h4>
+          <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt enim culpa animi aliquam repellat! Reprehenderit, quod asperiores modi deleniti placeat hic consequatur accusamus, fuga nemo omnis illum amet commodi. Repudiandae.
+          </p>
+          <p>
+              <button type="button" class="btn btn-success">Go सात्विक !</button>
+          </p>
+      </div>
+
+
+      <div class="col-12 col-md-6 order-md-4 d-flex justify-content-center" id="img2">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" alt="">
+      </div>
+      <div class="col-12 col-md-6 order-md-3 d-flex flex-column justify-content-center align-items-start" id="text2">
+          <h4>
+              Flat 25% Discount on your first order.
+          </h4>
+          <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt enim culpa animi aliquam repellat! Reprehenderit, quod asperiores modi deleniti placeat hic consequatur accusamus, fuga nemo omnis illum amet commodi. Repudiandae.
+          </p>
+          <p>
+              <button type="button" class="btn btn-success">Save Money.</button>
+          </p>
+      </div>
+    
+    </div>
+
+
+
+
+    <!-- Payment Options (logo) -->
+
+    <div class="row paymentOption ">
+      <div class="col-4">
+          
+      </div>
+      <div class="col-2">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" alt="">
+      </div>
+      <div class="col-2">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" alt="">
+      </div>
+      <div class="col-2">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" alt="">
+      </div>
+    </div>
+
+
+
+        <!-- gift Section -->
+
+
+       <div class="row giftsection">
+        <div class="col-7 gift">
+            <h2>Gift for you</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet alias odio suscipit sed pariatur est aspernatur magnam non iusto architecto repudiandae quod modi voluptates fuga voluptatem consequatur, illum natus nulla!</p>
+            
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   Unlock Gift 
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Unlock Gift Boucher</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body boucher">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="boucher">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Unlock</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        <div class="col-5 " >
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" id="img10" >
+
+        </div>
+
+       </div> 
+
+    </div>
+
+    
+
+  </body>
+</html>
